@@ -1,0 +1,28 @@
+@import 'tailwindcss/dist/base.css';
+@import 'tailwindcss/dist/components.css';
+@import 'tailwindcss/dist/utilities.css';
+
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#containerInformation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(163, 255, 151);
+    padding: 50px 10px 50px 10px;
+    margin: 0 90px;
+}
+
+
+
+#containerInformation > div {
+    border-style: dotted;
+    border-color: green;
+}
